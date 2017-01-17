@@ -17,7 +17,12 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
+<<<<<<< HEAD
         "yiisoft/yii2-swiftmailer": "~2.0.0"
+=======
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "noam148/yii2-image-manager" : "*"
+>>>>>>> c20ca2040a3c0fde12f874d1d55adb17d7a27b51
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

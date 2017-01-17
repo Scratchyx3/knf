@@ -113,3 +113,23 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+/* =================================================================================== */
+/* Image Manager */
+/* =================================================================================== */
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 0px) and (max-width: 766px) {
+    #module-imagemanager > .row .col-options {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #module-imagemanager > .row .col-options {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+/* =================================================================================== */

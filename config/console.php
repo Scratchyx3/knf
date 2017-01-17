@@ -8,6 +8,7 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',
+    'defaultRoute' => 'login/index',
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
