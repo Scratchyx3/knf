@@ -1,0 +1,43 @@
+<?php
+
+/* @var $this yii\web\View */
+/* @var $form yii\bootstrap\ActiveForm */
+/* @var $model app\models\LoginForm */
+
+use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
+use app\models\User;
+use yii\helpers\Url;
+
+$this->title = 'Login';
+
+?>
+<div class="site-login">
+    <h1><?= Html::encode($this->title) ?></h1>
+    <p><?= Html::encode($model->getMessage()) ?></p>
+    <?php $form = ActiveForm::begin([
+        'action' => ['login/index'],
+        'id' => 'login-form',
+        'layout' => 'horizontal',
+        'fieldConfig' => [
+            'template' => "{label}\n<div class=\"col-lg-3\">{input}</div>\n<div class=\"col-lg-8\">{error}</div>",
+            'labelOptions' => ['class' => 'col-lg-1 control-label'],
+        ],
+    ]); ?>
+
+        <?= $form->field($model, 'username')->textInput(['autofocus' => true])->label('Username') ?>
+
+        <?= $form->field($model, 'password')->passwordInput()->label('Passwort') ?>
+        <div class="form-group">
+            <div class="col-lg-offset-1 col-lg-11">
+                <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                <?= Html::a('Registrieren', ['/register/forward'], ['class'=>'btn btn-primary']) ?>
+            </div>
+        </div>
+
+
+    <?php ActiveForm::end(); ?>
+
+
+
+</div>
