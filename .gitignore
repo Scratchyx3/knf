@@ -26,8 +26,10 @@ phpunit.phar
 tests/_output/*
 tests/_support/_generated
 
+#ignoring database config
 config/db.php
 
+# ignoring sass
 web/css/.sass-cache
 web/css/site.css.map
 web/css/site.scss
