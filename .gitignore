@@ -28,6 +28,6 @@ tests/_support/_generated
 
 config/db.php
 
-web/css/.ass-cache
+web/css/.sass-cache
 web/css/site.css.map
 web/css/site.scss
