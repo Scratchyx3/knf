@@ -48,7 +48,7 @@ if (!isset($this->params['activeLabel2'])) {
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/login/index'], 'visible' => !Yii::$app->user->isGuest],
-            ['label' => 'Foto Upload', 'url' => ['/imagemanager'], 'visible' => !Yii::$app->user->isGuest, 'active'=>$activeLabel2],
+            ['label' => 'Foto Upload', 'url' => ['/ImageManager'], 'visible' => !Yii::$app->user->isGuest, 'active'=>$activeLabel2],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/login/index']]
             ) : (
