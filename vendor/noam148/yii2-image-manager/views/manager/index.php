@@ -38,7 +38,7 @@ $this->params['breadcrumbs'][] = 'Foto Upload';
 			<?php Pjax::end(); ?>
 		</div>
 		<div class="col-xs-12 col-sm-2 col-options">
-			<div class="form-group">
+			<div class="form-group hide">
 				<?=Html::textInput('input-mediamanager-search', null, ['id'=>'input-mediamanager-search', 'class'=>'form-control', 'placeholder'=>Yii::t('imagemanager','Search').'...'])?>
 			</div>
 

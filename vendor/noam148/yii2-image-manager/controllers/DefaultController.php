@@ -17,11 +17,12 @@ class DefaultController extends Controller
      */
     public function actionIndex()
     {
+        $model = new User();
         if (!Yii::$app->user->isGuest) {
-            return $this->render('index');
+            return $this->render('/login');
         }
         return $this->render('//login/login', [
-            'model' => $userMdl,
+            'model' => $model,
         ]);
     }
 }
