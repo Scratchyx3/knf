@@ -23,7 +23,7 @@
 }
 
 #module-imagemanager > .row .col-overview .item-overview {
-    max-height: 500px;
+    max-height: 100px;
     overflow: auto;
 }
 
