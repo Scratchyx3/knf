@@ -58,8 +58,8 @@ $config = [
         ],
     ],
     'modules' => [
-        'ImageManager' => [
-            'class' => 'noam148\ImageManager\Module',
+        'imagemanager' => [
+            'class' => 'noam148\imagemanager\Module',
             //set accces rules ()
             'canUploadImage' => true,
             'canRemoveImage' => function(){
