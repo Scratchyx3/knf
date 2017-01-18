@@ -98,12 +98,24 @@ a.desc:after {
 @media only screen and (min-width: 0px) and (max-width: 766px) {
   #module-imagemanager > .row .col-options {
     padding-right: 0;
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  #module-imagemanager > .row .col-overview .item-overview {
+    height: 140px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 10000px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #module-imagemanager > .row .col-options {
     padding-right: 0;
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  #module-imagemanager > .row .col-overview .item-overview {
+    height: 140px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 10000px; } }
 /* =================================================================================== */
 
 /*# sourceMappingURL=site.css.map */
